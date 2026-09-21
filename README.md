@@ -2,7 +2,7 @@
 
 <p align="center">
 大阪公立大学大学院 情報学研究科 修士1年(2028年3月修了見込み)<br>
-Computer Vision × Machine Learning
+研究はコンピュータビジョンと機械学習。開発はテストと CI まで書くアプリケーション
 </p>
 
 <p align="center">
@@ -53,6 +53,8 @@ Computer Vision × Machine Learning
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
@@ -60,11 +62,12 @@ Computer Vision × Machine Learning
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
-- **画像・動画処理**: セグメンテーション(SAM系)、オプティカルフロー、単眼深度推定、点群処理(Open3D)
+- **画像・動画処理(研究で使用。コードは共同研究のため非公開)**: セグメンテーション(SAM系)、オプティカルフロー、単眼深度推定、点群処理(Open3D)
 - **開発**: レイヤー分割、スキーマのバージョン管理、テスト設計(pytest / vitest)、CI、Git/GitHub でのPRベース開発
+- **チーム開発で使ったもの**: Flutter と Node.js(ハッカソン)、Azure AI Search と Azure OpenAI による RAG(インターン)
 
 ## Now & Next
 
-- 修士研究を進めつつ、研究で使う技術を研究外のプロダクトに応用しています
+- 修士研究を進めつつ、研究の外ではテストと CI を備えたアプリケーションの開発を続けています
 - 直近は shukatsu-tracker の永続化層を作り直して SQLite と PostgreSQL の両方で同じテストが通る形にし、型検査を CI に加え、ER 図・画面一覧・テスト観点表・運用手順の設計文書を揃えました
 - 次は Issue に積んである画面の改善とファイル分割に、1本ずつ PR で取り組みます

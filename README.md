@@ -36,7 +36,7 @@
 |---|---|---|
 | **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | 選考プロセスをローカルで管理するツール。締切・選考ステップ・提出した回答を一元管理する。認証情報を持たない設計。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に対して同じテストを CI で実行している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
 | **[AI-Intern-2026](https://github.com/Natto2026/AI-Intern-2026)** | IT企業の AI エンジニア 5日間インターン。5人チーム。企業サイトのデータから社内の問い合わせに答える RAG を構築。チームで20問の総合スコアを 0.567 から 0.801 に改善し、追加の5問では 0.868。その過程で、HTML の本文抽出と PDF・画像への対応を担当。判断の経緯と、できなかったことの記録 | Python / Azure AI Search / Azure OpenAI / RAG |
-| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | 6人チームでの3日間開発。現在地の周辺に絞った地域SNSアプリ。フォローと公開範囲の制御、店舗情報の紐づけ、地図表示を担当し、テスト56件を追加した。ハッカソン後に、発表で出た指摘を受けて改良を足し、フォロー関係の保存を DynamoDB に移せるようにして、自分の AWS アカウントで動作を確認した | Flutter / Node.js / TypeScript / Google Maps / AWS (DynamoDB, CloudFormation) |
+| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | 6人チームでの3日間開発。現在地の周辺に絞った地域SNSアプリ。フォローと公開範囲の制御、店舗情報の紐づけ、地図の部品を担当し、テスト56件を追加した。ハッカソン後に、審査で出た指摘への改良と、振り返りで見つけた課題への対応を足した。フォロー関係の保存を DynamoDB に移せるようにし、自分の AWS アカウントで動作を確認した | Flutter / Node.js / TypeScript / Google Maps / AWS (DynamoDB, CloudFormation) |
 | **研究（コード非公開）** | 医療映像（外科手術動画）を対象としたコンピュータビジョン。セマンティックセグメンテーション、オプティカルフロー、器具の動きからの熟練度評価 | Python / PyTorch / OpenCV |
 
 <sub>研究のコードは共同研究のため非公開。インターンのコードは主催元の環境に基づくため載せず、担当範囲と判断の記録のみを公開している。ハッカソンは、主催元の許可を得て、自分が単独で書いた範囲のコードだけを収録している。</sub>

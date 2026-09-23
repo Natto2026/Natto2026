@@ -26,17 +26,17 @@
 - 2026年2月　[第11回 紀陽イノベーションサポートプログラム 部門賞（奨励賞）](https://www.wakayama-u.ac.jp/edc/news/2026030300017/)（紀陽銀行主催）。学生4名チームの技術担当。唯一の学生チームでの入賞
 - 2026年3月　学部卒業。卒業研究はフィッシングサイト検知
 - 2026年4月　大阪公立大学大学院 情報学研究科 入学（知能メディア処理研究室）。研究室で計算機管理のアルバイト
-- 2026年8月　[IT企業の AI エンジニア 5日間インターン](https://github.com/Natto2026/AI-Intern-2026)。5人チームで RAG 型の社内問い合わせシステムを構築
-- 2026年9月　[NTTドコモ ハッカソン](https://github.com/Natto2026/docomo-hackathon-2026)。6人チームで地域SNSを開発
+- 2026年8月　[IT企業の AI エンジニア 5日間インターン](https://github.com/Natto2026/AI-Intern-2026)。社内問い合わせ RAG の構築
+- 2026年9月　[NTTドコモ ハッカソン](https://github.com/Natto2026/docomo-hackathon-2026)。地域SNSアプリの開発
 
 ## 作ったもの
 
-| | 概要 | 技術 |
+| 成果物 | 概要 | 技術 |
 |---|---|---|
-| **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | 選考プロセスをローカルで管理するツール。締切・選考ステップ・回答を一元管理し、認証情報は持たない。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に同じテストを CI で流している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
-| **[AI-Intern-2026](https://github.com/Natto2026/AI-Intern-2026)** | 5人チームで、企業サイトのデータから社内の問い合わせに答える RAG を構築。チームで20問の総合スコアを 0.567 から 0.801 に改善。自分は HTML の本文抽出と PDF・画像への対応を担当。判断の経緯とできなかったことを記録している | Python / Azure AI Search / Azure OpenAI / RAG |
-| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | 6人チームで3日間。現在地の周辺に絞った地域SNSアプリ。フォローと公開範囲の制御、店舗情報の紐づけ、地図の部品を担当し、テスト56件を追加。ハッカソン後に、審査の指摘と振り返りの課題に対応し、フォロー関係の保存を DynamoDB に移せるようにして、自分の AWS で動作を確認した | Flutter / Node.js / TypeScript / Google Maps / AWS（DynamoDB・CloudFormation） |
-| **研究（コード非公開）** | 医療映像（外科手術動画）を対象としたコンピュータビジョン。セマンティックセグメンテーション、オプティカルフロー、器具の動きからの熟練度評価 | Python / PyTorch / OpenCV |
+| **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | **個人開発**。選考の締切・ステップ・回答を手元で管理するツール。認証情報は持たない。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に同じテストを CI で流している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
+| **[AI-Intern-2026](https://github.com/Natto2026/AI-Intern-2026)** | **5日間インターン**。5人チームで社内問い合わせ RAG を構築し、20問の総合スコアを 0.567 から 0.801 へ。担当は HTML の本文抽出と PDF・画像への対応 | Python / Azure AI Search / Azure OpenAI / RAG |
+| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | **ハッカソン**。6人チーム3日間で、現在地の周辺に絞った地域SNSアプリ。担当はフォローと公開範囲、店舗の紐づけ、地図の部品とテスト56件。後日 DynamoDB 版を足し、自分の AWS で動作を確認 | Flutter / Node.js / TypeScript / Google Maps / AWS（DynamoDB・CloudFormation） |
+| **研究（コード非公開）** | **修士研究**。外科手術動画を対象としたコンピュータビジョン。器具の動きから熟練度を評価する | Python / PyTorch / OpenCV |
 
 <sub>研究のコードは共同研究のため非公開。インターンのコードは主催元の環境に基づくため載せず、担当範囲と判断の記録のみを公開している。ハッカソンは、主催元の許可を得て、自分が単独で書いた範囲のコードだけを収録している。</sub>
 

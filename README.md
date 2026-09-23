@@ -15,7 +15,7 @@
 
 ## 自己紹介
 
-- 作ったものを動く状態で保つことを大切にしている。設計・実装だけでなく、テストと CI まで用意する
+- 作ったものを動く状態で保つことを大切にしている。個人開発では、設計・実装だけでなくテストと CI まで用意する
 - 技術以外では、学部時代に和歌山大学体育会の会長を務めた。**技術とマネジメントの両輪**で動けることが強み
 
 ## 経歴
@@ -33,7 +33,7 @@
 
 | 成果物 | 概要 | 技術 |
 |---|---|---|
-| **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | **個人開発**。選考の締切・ステップ・回答を手元で管理するツール。認証情報は持たない。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に同じテストを CI で流している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
+| **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | **個人開発**。選考の締切・ステップ・回答を手元で管理するツール。パスワードは保存しない。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に同じテストを CI で流している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
 | **[AI-Intern-2026](https://github.com/Natto2026/AI-Intern-2026)** | **5日間インターン**。5人チームで社内問い合わせ RAG を構築し、20問の総合スコアを 0.567 から 0.801 へ。担当は HTML の本文抽出と PDF・画像への対応 | Python / Azure AI Search / Azure OpenAI / RAG |
 | **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | **ハッカソン**。6人チーム3日間で、現在地の周辺に絞った地域SNSアプリ。担当はフォローと公開範囲、店舗の紐づけ、地図の部品とテスト56件。後日 DynamoDB 版を足し、自分の AWS で動作を確認 | Flutter / Node.js / TypeScript / Google Maps / AWS（DynamoDB・CloudFormation） |
 | **研究（コード非公開）** | **修士研究**。外科手術動画を対象としたコンピュータビジョン。器具の動きから熟練度を評価する | Python / PyTorch / OpenCV |
@@ -62,5 +62,5 @@
 
 ## 現在と今後
 
-- 直近は shukatsu-tracker の 0.8.0 で、スプレッドシートからの CSV 取り込みを追加した。取り込む前に結果の要約を見せ、確認のあとに1つのトランザクションで書き込む。あわせて、古い画面からの保存や接続の失敗を利用者に知らせる修正を入れた
+- 直近は shukatsu-tracker の 0.9.0 で、障害時の振る舞いを見直した。COMMIT が一度失敗すると以後の書き込みが止まる不具合や、接続が切れたときに画面へ生のエラーが出る問題を直し、PostgreSQL を再起動しても接続を張り直して動き続けるようにした
 - 次は Issue に積んである画面のファイル分割と締切のリマインドに、1本ずつ PR で取り組む

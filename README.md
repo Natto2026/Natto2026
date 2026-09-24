@@ -56,7 +56,7 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
-- **画像・動画処理（研究で使用）**: セグメンテーション（SAM系）、オプティカルフロー、単眼深度推定、点群処理（Open3D）
+- **画像・動画処理（研究で使用。PyTorch・OpenCV を含め、コードは非公開）**: セグメンテーション（SAM系）、オプティカルフロー、単眼深度推定、点群処理（Open3D）
 - **開発**: レイヤー分割、スキーマのバージョン管理、テスト設計（pytest / vitest）、Git/GitHub での PR ベース開発
 - **チーム開発で使ったもの**: Flutter と Node.js（ハッカソン）、Azure AI Search と Azure OpenAI による RAG（インターン）
 

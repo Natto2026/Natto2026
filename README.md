@@ -35,7 +35,7 @@
 |---|---|---|
 | **[shukatsu-tracker](https://github.com/Natto2026/shukatsu-tracker)** | **個人開発**。選考の締切・ステップ・回答を手元で管理するツール。パスワードは保存しない。UI・ユースケース・永続化を層に分け、SQLite と PostgreSQL の両方に同じテストを CI で流している | Python / Streamlit / SQLite / PostgreSQL / pytest / GitHub Actions |
 | **[AI-Intern-2026](https://github.com/Natto2026/AI-Intern-2026)** | **5日間インターン**。5人チームで社内問い合わせ RAG を構築し、20問の総合スコアを 0.567 から 0.801 へ。担当は HTML の本文抽出と PDF・画像への対応 | Python / Azure AI Search / Azure OpenAI / RAG |
-| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | **ハッカソン**。6人チーム3日間で、現在地の周辺に絞った地域SNSアプリ。担当はフォローと公開範囲、店舗の紐づけ、地図の部品とテスト56件。後日 DynamoDB 版を足し、自分の AWS で動作を確認 | Flutter / Node.js / TypeScript / Google Maps / AWS（DynamoDB・CloudFormation） |
+| **[docomo-hackathon-2026](https://github.com/Natto2026/docomo-hackathon-2026)** | **ハッカソン**。6人チーム3日間で、現在地の周辺に絞った地域SNSアプリ。担当はフォローと公開範囲、店舗の紐づけ、地図の部品と、そのテスト。後日 DynamoDB 版を足し、自分の AWS で動作を確認 | Flutter / Node.js / TypeScript / Google Maps / AWS（DynamoDB・CloudFormation） |
 | **研究（コード非公開）** | **修士研究**。外科手術動画を対象としたコンピュータビジョン。器具の動きから熟練度を評価する | Python / PyTorch / OpenCV |
 
 <sub>研究のコードは共同研究のため非公開。インターンのコードは主催元の環境に基づくため載せず、担当範囲と判断の記録のみを公開している。ハッカソンは、主催元の許可とチームの了承を得て、自分が書いた・手を入れたファイルをすべて収録している（共同で編集したファイルを含み、画面まで動かせる）。</sub>
